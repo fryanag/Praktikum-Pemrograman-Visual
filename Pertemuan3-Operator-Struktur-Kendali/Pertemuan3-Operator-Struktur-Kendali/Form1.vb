@@ -23,13 +23,13 @@
         End If
 
         If nilaiUjian <= 50 Then
-            picImage.Image = Image.FromFile("Assets\giphy.gif")
+            picImage.Image = Image.FromFile("Assets\shock.gif")
 
         ElseIf nilaiUjian <= 75 Then
-            picImage.Image = Image.FromFile("Assets\giphy1.webp")
+            picImage.Image = Image.FromFile("Assets\lizard.gif")
 
         Else
-            picImage.Image = Image.FromFile("Assets\giphy2.webp")
+            picImage.Image = Image.FromFile("Assets\minion.gif")
         End If
     End Sub
 

@@ -83,6 +83,7 @@ Partial Class frmPerulangan
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(255), CByte(255), CByte(128))
         ClientSize = New Size(800, 450)
         Controls.Add(lstHasil)
         Controls.Add(txtNilaiAkhir)
